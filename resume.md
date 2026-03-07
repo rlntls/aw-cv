@@ -1,33 +1,19 @@
 # Alex Wastell
 
 **Senior Product Designer — UX/UI & Design Systems**  
-London, UK | [alexwastell.com](https://alexwastell.com) | [linkedin.com/in/alexwastell](https://linkedin.com/in/alexwastell) | [awastell@gmail.com](mailto:awastell@gmail.com) | 07710 796 794
+London, UK | [alexwastell.com](https://alexwastell.com) | [linkedin.com/in/alexwastell](https://linkedin.com/in/alexwastell) | [awastell@gmail.com](mailto:awastell@gmail.com) | 07710 796794
 
 ## Profile
 
-Senior Product Designer specialising in UX/UI, design systems and scalable digital platforms with 18 years’ experience delivering enterprise websites and digital products for global organisations including Unilever, BT and HSBC. Experienced in component-driven interface design within complex CMS environments and collaborating closely with engineering teams to deliver WCAG-compliant production systems. Background in editorial design provides a strong foundation in typography, layout and visual hierarchy.
+Senior Product Designer specialising in UX/UI and design systems, delivering large-scale digital platforms and websites for organisations including Unilever, BT and HSBC. Experienced designing scalable, component-driven interfaces within complex CMS environments, applying user-centred design principles and leveraging AI-assisted workflows while partnering with engineering teams to deliver WCAG-compliant digital experiences. Background in editorial design provides a strong foundation in typography, layout and visual hierarchy.
 
 ## Core Skills
 
-- UX/UI design
-- Design systems & component libraries
-- Interaction design
-- Information architecture
-- Responsive web design
-- Accessibility (WCAG 2.2)
-- Design-to-development collaboration
-- Prototyping & interaction modelling
-- User testing & validation
-- Design governance & system maintenance
-- Agile product delivery
+UX/UI design · Design systems · Interaction design · Information architecture · Responsive design · Accessibility (WCAG 2.2) · Prototyping · User testing · Design governance · Agile product delivery
 
 ## Tools & Platforms
 
-- **Figma:** Libraries, variables, Dev Mode
-- **Sketch** / **Axure RP**
-- **Adobe Creative Cloud:** Photoshop, Illustrator, InDesign
-- **Management:** Jira, Confluence, Miro
-- **Innovation:** AI-assisted design and prototyping workflows
+Figma (libraries, variables, Dev Mode) · Sketch · Axure RP · Adobe Creative Cloud (Photoshop, Illustrator, InDesign) · Jira · Confluence · Miro · AI-assisted design workflows
 
 ## Professional Experience
 
@@ -35,25 +21,23 @@ Senior Product Designer specialising in UX/UI, design systems and scalable digit
 
 _Feb 2024 – Present_
 
-- Design high-fidelity UI and modular component systems for websites and digital products.
-- Led the transition of the digital team from Sketch to Figma, developing the internal business case and defining new collaborative workflows.
-- Established best practice for component architecture, design systems and developer handoff.
-- Integrated accessibility requirements into component design to ensure WCAG-compliant implementation.
-- Work with major UK and FTSE-listed organisations across financial services, infrastructure and energy sectors.
+- Design modular UI systems and high-fidelity interfaces for enterprise websites and digital platforms.
+- Led the migration from Sketch to Figma, defining collaborative workflows and tooling.
+- Established standards for component architecture, design systems and developer handoff.
+- Delivered work for major UK and FTSE-listed organisations across financial services, infrastructure and energy sectors.
 
 ### Senior UX/UI Designer (Contract) | Agency & Product Clients — London
 
 _2020 – 2024_
 
-Delivered interface design, responsive systems and design system work across enterprise platforms and global organisations. Key projects included:
+Selected projects across enterprise platforms and global organisations:
 
-- **Dow:** Component design and curation of a Figma design system supporting migration of the corporate web estate to Adobe Experience Manager.
+- **Dow:** Component design and curation of a Figma design system supporting migration to Adobe Experience Manager.
 - **Johnson & Johnson (SPI):** UI design for surgical workflow software visualising operating room procedures and analytics.
 - **Autolus Therapeutics:** Responsive website and modular content architecture for a global immunotherapy company.
-- **NatWest:** Interface design supporting financial product communications.
-- **LEGO, Manchester City, Xylem, Acronis:** UI design for global digital platforms through agency engagements.
+- **NatWest; LEGO; Manchester City; Xylem; Acronis:** Interface design for global digital platforms through agency engagements.
 
-### Design Lead / Senior Experience Designer (Contract) | Publicis Sapient — London
+### Design Lead/Senior Experience Designer (Contract) | Publicis Sapient — London
 
 _Feb 2018 – Jun 2019_
 
@@ -61,7 +45,7 @@ _Feb 2018 – Jun 2019_
 - Designed and governed components within the **Adobe Classic** design system used by global brands including Dove, Lynx/Axe and Tresemmé.
 - Worked with experience development and data engineering teams to ensure design feasibility within AEM platform constraints.
 
-### UX / Interaction Designer (Contract) | McCann Enterprise — London
+### UX/Interaction Designer (Contract) | McCann Enterprise — London
 
 _Jul 2017 – Jan 2018_
 
@@ -85,7 +69,7 @@ _Jun 2015 – Jul 2016_
 
 _Apr 2008 – Apr 2013_
 
-- End-to-end digital design across websites, campaigns and mobile applications for brands including **Corona Extra, EA Sports and Northern Rail**.
+- Digital design across websites, campaigns and mobile applications for brands including **Corona Extra, EA Sports and Northern Rail**.
 
 ### Graphic & Editorial Designer | Lance Publishing — Kettering
 

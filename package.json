@@ -4,14 +4,15 @@
   "main": "index.js",
   "scripts": {
     "build": "node build.js",
-    "publish": "npm run build && git add . && git commit -m 'Update CV' && git push origin main",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm run build && git add . && git commit -m 'Update CV' && git push origin main"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "md-to-pdf": "^5.2.5"
+    "marked": "^17.0.4",
+    "pagedjs": "^0.4.3",
+    "puppeteer": "^24.38.0"
   }
 }

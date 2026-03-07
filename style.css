@@ -1,95 +1,102 @@
+/* Paged.js Paged Media Management */
+@page {
+  size: A4;
+  margin: 25mm 20mm 25mm 20mm;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
-  color: #111;
-  line-height: 1.5;
-  max-width: 800px;
-  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  line-height: 1.4;
+  font-size: 10pt;
+  max-width: 100%;
+  margin: 0;
+  background-color: #fff;
 }
 
+/* Name */
 h1 {
-  font-size: 2.2em;
-  border-bottom: 2px solid #111;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  text-align: center;
+  font-size: 28pt;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin: 0 0 4pt 0;
+  padding: 0;
+  border: none;
+  text-align: left;
 }
 
+/* Contact Info (assumes paragraph immediately following H1) */
 h1 + p {
-  text-align: center;
-  color: #555;
-  font-size: 0.9em;
-  margin-bottom: 20px;
+  text-align: left;
+  color: #444;
+  font-size: 10pt;
+  font-weight: 400;
+  margin: 0 0 20pt 0; /* Reduced from 36pt */
+  line-height: 1.6;
 }
 
+/* Section Headings */
 h2 {
-  font-size: 1.4em;
-  color: #333;
-  margin-top: 25px;
-  border-bottom: 1px solid #eaeaea;
-  padding-bottom: 5px;
+  font-size: 14pt;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #000;
+  margin: 20pt 0 10pt 0;
+  padding: 0 0 4pt 0;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  break-after: avoid;
 }
 
+/* Tighten gap for the very first section (Profile) */
+h1 + p + h2 {
+  margin-top: 0;
+}
+
+/* Job Role / Institution */
 h3 {
-  font-size: 1.1em;
-  color: #111;
-  margin-bottom: 0px;
-  margin-top: 20px;
-  page-break-after: avoid !important;
-  break-after: avoid !important;
+  font-size: 11pt;
+  font-weight: 600;
+  color: #000;
+  margin: 16pt 0 0 0;
+  text-align: left;
+  break-after: avoid;
 }
 
+/* Dates / Sub-info (assumes paragraph following H3) */
 h3 + p {
-  page-break-before: avoid !important;
-  break-before: avoid !important;
+  font-size: 9.5pt;
+  font-weight: 400;
+  color: #666;
+  margin: 2pt 0 8pt 0;
+  break-before: avoid;
+  break-after: avoid;
 }
 
 p {
-  margin-top: 5px;
-  color: #444;
+  margin: 0 0 8pt 0;
+  text-align: left;
 }
 
 ul {
-  margin-top: 5px;
+  margin: 0 0 16pt 0;
+  padding-left: 16pt;
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: 4pt;
+  text-align: left;
+  break-inside: avoid;
+}
+
+p, li {
+  orphans: 3;
+  widows: 3;
 }
 
 a {
-  color: #0366d6;
+  color: #000;
   text-decoration: none;
-}
-
-/* Advanced Print & Page Break Management */
-@media print {
-  p, li, div {
-    /* Prevents single lines at the top (widows) or bottom (orphans) of a page */
-    orphans: 4 !important;
-    widows: 4 !important;
-  }
-  
-  h1, h2, h3, h4 {
-    /* Keep headings with their following content */
-    page-break-after: avoid !important;
-    break-after: avoid !important;
-  }
-
-  /* Specific rule: never break before a list or paragraph if it directly follows a heading */
-  h1 + p, h2 + p, h3 + p, h2 + ul, h3 + ul {
-    page-break-before: avoid !important;
-    break-before: avoid !important;
-  }
-
-  /* Specific rule: keep the date paragraph with the first bullet point item */
-  h3 + p + ul, h3 + p + p {
-    page-break-before: avoid !important;
-    break-before: avoid !important;
-  }
-
-  li {
-    /* Try not to split a single bullet point across two pages */
-    page-break-inside: avoid !important;
-    break-inside: avoid !important;
-  }
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1pt;
 }

@@ -1,32 +1,55 @@
+const { marked } = require('marked');
 const fs = require('fs');
-const { mdToPdf } = require('md-to-pdf');
-const path = require('path');
+const puppeteer = require('puppeteer');
 
 const date = new Date();
 const month = date.toLocaleString('default', { month: 'short' });
 const year = date.getFullYear();
 const filename = `Alex-Wastell_CV_${month}-${year}.pdf`;
 
-// Delete old PDFs in root directory
+// Delete previous versions of your CV in root directory
 const files = fs.readdirSync(__dirname);
 for (const file of files) {
-  if (file.endsWith('.pdf')) {
-    fs.unlinkSync(path.join(__dirname, file));
-    console.log(`Removed old PDF: ${file}`);
+  if (file.startsWith('Alex-Wastell_CV_') && file.endsWith('.pdf')) {
+    fs.unlinkSync(file);
+    console.log(`Cleaned up previous version: ${file}`);
   }
 }
 
 (async () => {
     try {
-        const pdf = await mdToPdf({ path: 'resume.md' }, {
-            config_file: 'md-to-pdf.js',
-            dest: filename
+        console.log('Generating PDF via Paged.js + Puppeteer...');
+        const markdown = fs.readFileSync('resume.md', 'utf8');
+        const html = marked.parse(markdown);
+
+        const template = `<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>${fs.readFileSync('style.css', 'utf8')}</style>
+    <script src="file://${__dirname}/node_modules/pagedjs/dist/paged.polyfill.js"></script>
+</head>
+<body>
+    ${html}
+</body>
+</html>`;
+
+        const browser = await puppeteer.launch({
+            headless: true,
+            args: ['--no-sandbox', '--disable-setuid-sandbox']
+        });
+        
+        const page = await browser.newPage();
+        await page.setContent(template, { waitUntil: 'networkidle0' });
+
+        await page.pdf({
+            path: filename,
+            format: 'A4',
+            printBackground: true,
+            preferCSSPageSize: true
         });
 
-        if (pdf) {
-            fs.writeFileSync(pdf.filename, pdf.content);
-        }
-        
+        await browser.close();
         console.log(`✔ Generated ${filename}`);
     } catch (error) {
         console.error('Error generating PDF:', error);

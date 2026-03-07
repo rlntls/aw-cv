@@ -1,8 +1,0 @@
-module.exports = {
-  stylesheet: "style.css",
-  pdf_options: {
-    format: "A4",
-    margin: { top: "20mm", right: "20mm", bottom: "20mm", left: "20mm" },
-    printBackground: true,
-  },
-};
