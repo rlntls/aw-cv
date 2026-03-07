@@ -1,11 +1,11 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   color: #111;
-  line-height: 1.6;
+  line-height: 1.5;
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
 }
+
 h1 {
   font-size: 2.2em;
   border-bottom: 2px solid #111;
@@ -13,34 +13,49 @@ h1 {
   margin-bottom: 5px;
   text-align: center;
 }
+
 h1 + p {
   text-align: center;
   color: #555;
   font-size: 0.9em;
   margin-bottom: 20px;
 }
+
 h2 {
   font-size: 1.4em;
   color: #333;
-  margin-top: 30px;
+  margin-top: 25px;
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 5px;
 }
+
 h3 {
   font-size: 1.1em;
   color: #111;
   margin-bottom: 0px;
+  margin-top: 20px;
+  page-break-after: avoid !important;
+  break-after: avoid !important;
 }
+
+h3 + p {
+  page-break-before: avoid !important;
+  break-before: avoid !important;
+}
+
 p {
   margin-top: 5px;
   color: #444;
 }
+
 ul {
   margin-top: 5px;
 }
+
 li {
   margin-bottom: 5px;
 }
+
 a {
   color: #0366d6;
   text-decoration: none;
@@ -50,31 +65,31 @@ a {
 @media print {
   p, li, div {
     /* Prevents single lines at the top (widows) or bottom (orphans) of a page */
-    orphans: 3;
-    widows: 3;
+    orphans: 4 !important;
+    widows: 4 !important;
   }
   
   h1, h2, h3, h4 {
     /* Keep headings with their following content */
-    page-break-after: avoid;
-    break-after: avoid;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
   }
 
-  ul, p {
-    /* Encourage keeping paragraphs/lists with their preceding headings */
-    page-break-before: auto;
-    break-before: auto;
+  /* Specific rule: never break before a list or paragraph if it directly follows a heading */
+  h1 + p, h2 + p, h3 + p, h2 + ul, h3 + ul {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
+  /* Specific rule: keep the date paragraph with the first bullet point item */
+  h3 + p + ul, h3 + p + p {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
   }
 
   li {
     /* Try not to split a single bullet point across two pages */
-    page-break-inside: avoid;
-    break-inside: avoid;
-  }
-
-  /* Specific rule: never break before a list or paragraph if it directly follows a heading */
-  h2 + p, h3 + p, h2 + ul, h3 + ul {
-    page-break-before: avoid;
-    break-before: avoid;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
   }
 }
