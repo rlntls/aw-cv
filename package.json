@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "md-to-pdf resume.md",
-    "publish": "npm run build && git add . && git commit -m 'Update CV' && git push",
+    "publish": "npm run build && git add . && git commit -m 'Update CV' && (git push || true)",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
