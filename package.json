@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "md-to-pdf resume.md",
-    "publish": "npm run build && git add . && git commit -m 'Update CV' && (git push || true)",
+    "build": "node build.js",
+    "publish": "npm run build && git add . && git commit -m 'Update CV' && git push origin main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
