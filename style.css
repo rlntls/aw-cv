@@ -1,13 +1,12 @@
-/* Paged.js Paged Media Management */
 @page {
   size: A4;
   margin: 25mm 20mm 25mm 20mm;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000;
-  line-height: 1.4;
+  line-height: 1.45;
   font-size: 10pt;
   max-width: 100%;
   margin: 0;
@@ -25,13 +24,13 @@ h1 {
   text-align: left;
 }
 
-/* Contact Info (assumes paragraph immediately following H1) */
+/* Contact Info */
 h1 + p {
   text-align: left;
   color: #444;
   font-size: 10pt;
   font-weight: 400;
-  margin: 0 0 20pt 0; /* Reduced from 36pt */
+  margin: 0 0 20pt 0;
   line-height: 1.6;
 }
 
@@ -48,7 +47,7 @@ h2 {
   break-after: avoid;
 }
 
-/* Tighten gap for the very first section (Profile) */
+/* Tighten gap for the very first section */
 h1 + p + h2 {
   margin-top: 0;
 }
@@ -63,7 +62,7 @@ h3 {
   break-after: avoid;
 }
 
-/* Dates / Sub-info (assumes paragraph following H3) */
+/* Dates / Sub-info */
 h3 + p {
   font-size: 9.5pt;
   font-weight: 400;
@@ -84,7 +83,7 @@ ul {
 }
 
 li {
-  margin-bottom: 4pt;
+  margin-bottom: 3pt;
   text-align: left;
   break-inside: avoid;
 }
