@@ -17,7 +17,7 @@ Figma (libraries, variables, Dev Mode) · Sketch · Axure RP · Adobe Creative C
 
 ## Professional Experience
 
-### Senior Product Designer (UX/UI) | SampsonMay — London
+### Senior Product Designer (UX/UI) | SampsonMay, London
 
 _Feb 2024 – Present_
 
@@ -26,7 +26,7 @@ _Feb 2024 – Present_
 - Established standards for component architecture, design systems and developer handoff.
 - Delivered work for major UK and FTSE-listed organisations across financial services, infrastructure and energy sectors.
 
-### Senior UX/UI Designer (Contract) | Agency & Product Clients — London
+### Senior UX/UI Designer (Contract) | Agency & Product Clients, London
 
 _2020 – 2024_
 
@@ -37,7 +37,7 @@ Selected projects across enterprise platforms and global organisations:
 - **Autolus Therapeutics:** Responsive website and modular content architecture for a global immunotherapy company.
 - **NatWest; LEGO; Manchester City; Xylem; Acronis:** Interface design for global digital platforms through agency engagements.
 
-### Design Lead/Senior Experience Designer (Contract) | Publicis Sapient — London
+### Design Lead/Senior Experience Designer (Contract) | Publicis Sapient, London
 
 _Feb 2018 – Jun 2019_
 
@@ -45,33 +45,33 @@ _Feb 2018 – Jun 2019_
 - Designed and governed components within the **Adobe Classic** design system used by global brands including Dove, Lynx/Axe and Tresemmé.
 - Worked with experience development and data engineering teams to ensure design feasibility within AEM platform constraints.
 
-### UX/Interaction Designer (Contract) | McCann Enterprise — London
+### UX/Interaction Designer (Contract) | McCann Enterprise, London
 
 _Jul 2017 – Jan 2018_
 
 - Interaction design and prototyping for **Nestlé Purina Pro Plan’s** global website redesign using Axure.
 - Facilitated stakeholder workshops and requirements gathering for **SKF’s** global website project.
 
-### Design Manager (Contract) | AnalogFolk — London
+### Design Manager (Contract) | AnalogFolk, London
 
 _Sep 2016 – May 2017_
 
 - Member of **HSBC’s Digital Design Review Board** overseeing global digital collateral.
-- Conducted UX and visual design reviews across more than 500 digital assets produced by internal teams and partner agencies.
+- Conducted extensive UX and visual design reviews (500+) of work produced by internal teams and partner agencies.
 
-### Product UI Designer (Contract) | SapientNitro — London
+### Product UI Designer (Contract) | SapientNitro, London
 
 _Jun 2015 – Jul 2016_
 
 - Designed interface frameworks and dashboards for **BT’s** enterprise customer communications platform.
 
-### Digital Designer | Mojofuel — Manchester
+### Digital Designer | Mojofuel, Manchester
 
 _Apr 2008 – Apr 2013_
 
 - Digital design across websites, campaigns and mobile applications for brands including **Corona Extra, EA Sports and Northern Rail**.
 
-### Graphic & Editorial Designer | Lance Publishing — Kettering
+### Graphic & Editorial Designer | Lance Publishing, Kettering
 
 _Nov 2006 – Mar 2008_
 
