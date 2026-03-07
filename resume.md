@@ -1,9 +1,7 @@
 # Alex Wastell
 
-<div class="contact-info">
-  **Senior Product Designer — UX/UI & Design Systems**  
-  London, UK | [alexwastell.com](https://alexwastell.com) | [linkedin.com/in/alexwastell](https://linkedin.com/in/alexwastell) | awastell@gmail.com | 07710 796 794
-</div>
+**Senior Product Designer — UX/UI & Design Systems**  
+London, UK | [alexwastell.com](https://alexwastell.com) | [linkedin.com/in/alexwastell](https://linkedin.com/in/alexwastell) | [awastell@gmail.com](mailto:awastell@gmail.com) | 07710 796 794
 
 ## Profile
 

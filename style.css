@@ -10,7 +10,14 @@ h1 {
   font-size: 2.2em;
   border-bottom: 2px solid #111;
   padding-bottom: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+h1 + p {
+  text-align: center;
+  color: #555;
+  font-size: 0.9em;
+  margin-bottom: 20px;
 }
 h2 {
   font-size: 1.4em;
@@ -38,21 +45,36 @@ a {
   color: #0366d6;
   text-decoration: none;
 }
-.contact-info {
-  color: #555;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 0.9em;
-}
-/* Prevent awkward page breaks */
-h2,
-h3 {
-  page-break-after: avoid;
-}
-ul,
-p {
-  page-break-before: avoid;
-}
-li {
-  page-break-inside: avoid;
+
+/* Advanced Print & Page Break Management */
+@media print {
+  p, li, div {
+    /* Prevents single lines at the top (widows) or bottom (orphans) of a page */
+    orphans: 3;
+    widows: 3;
+  }
+  
+  h1, h2, h3, h4 {
+    /* Keep headings with their following content */
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  ul, p {
+    /* Encourage keeping paragraphs/lists with their preceding headings */
+    page-break-before: auto;
+    break-before: auto;
+  }
+
+  li {
+    /* Try not to split a single bullet point across two pages */
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Specific rule: never break before a list or paragraph if it directly follows a heading */
+  h2 + p, h3 + p, h2 + ul, h3 + ul {
+    page-break-before: avoid;
+    break-before: avoid;
+  }
 }
