@@ -26,7 +26,7 @@ _Feb 2024 – Present_
 - Established standards for component architecture, design systems and developer handoff.
 - Delivered work for major UK and FTSE-listed organisations across financial services, infrastructure and energy sectors.
 
-### Senior UX/UI Designer (Contract) | Agency & Product Clients, London
+### Senior UX/UI Designer (Contract) | Various agencies, London
 
 _2020 – 2024_
 
