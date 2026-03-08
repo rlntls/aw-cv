@@ -5,7 +5,7 @@ London, UK | alexwastell.com | linkedin.com/in/alexwastell | awastell@gmail.com 
 
 ## Profile
 
-Senior Product Designer specialising in UX/UI, responsive web design and design systems with 18 years’ experience delivering enterprise websites and digital products for organisations including Unilever, BT and HSBC. Experienced designing component-driven interfaces within complex CMS environments and collaborating closely with engineering teams to deliver accessible, production-ready digital systems. Background in editorial design provides a strong foundation in typography, layout and visual hierarchy.
+Senior Product Designer specialising in UX/UI, responsive web design and design systems with 18 years’ experience delivering enterprise websites and digital products for organisations including Unilever, BT and HSBC. Experienced designing component-driven interfaces within complex CMS environments and collaborating closely with engineering teams to deliver accessible, high-quality digital experiences. Background in editorial design provides a strong foundation in typography, layout and visual hierarchy.
 
 ## Core Skills
 
@@ -21,67 +21,68 @@ Figma (libraries, variables, Dev Mode) · Axure RP · Sketch · Adobe Creative C
 
 _Feb 2024 – Present_
 
-- Designing scalable UI systems and component-driven interfaces for enterprise websites and digital platforms across infrastructure, energy and financial services sectors.
-- Led migration of the digital team from Sketch to Figma, defining collaborative workflows, component architecture and developer handoff practices.
+- Design modular UI systems and component libraries for large-scale responsive platforms.
+- Deliver high-fidelity interfaces for enterprise websites across infrastructure, energy and financial services sectors.
+- Led migration of the digital team from Sketch to Figma, establishing collaborative workflows and developer handoff standards.
 - Contributed to the award-winning Gleeds website redesign recognised by the Construction Marketing Awards and Digital Impact Awards.
 
 ### Senior UX/UI Designer (Contract) | Various agencies, London
 
 _2020 – 2024_
 
-- UX/UI design and responsive interface systems delivered through agency engagements for global brands, enterprise platforms and healthcare technology products.
-- Key projects include **Dow** (AEM design system), **Johnson & Johnson** surgical software interfaces, and **Autolus Therapeutics** responsive website architecture.
-- Additional work delivered for **NatWest, LEGO, Manchester City, Xylem and Acronis** through agency collaborations.
+- Component design and curation of a Figma design system for Dow supporting migration of the global web estate to Adobe Experience Manager.
+- UI design for Johnson & Johnson surgical workflow software visualising operating room procedures and analytics.
+- Responsive website and modular content architecture for Autolus Therapeutics.
+- Interface design and responsive systems delivered for organisations including NatWest, LEGO, Manchester City, Xylem and Acronis.
 
 ### Design Lead / Senior Experience Designer (Contract) | Publicis Sapient, London
 
 _Feb 2018 – Jun 2019_
 
 - Design lead within Unilever’s Adobe AEM platform team.
-- Designed and governed components within the **Adobe Classic design system** used by global brands including Dove, Lynx/Axe and Tresemmé.
-- Collaborated with experience development and data engineering teams to ensure platform feasibility and scalability.
+- Designed and governed components within the Adobe Classic design system used by global brands including Dove, Lynx/Axe and Tresemmé.
+- Worked with engineering teams to ensure component feasibility and consistency across the platform.
 
 ### UX / Interaction Designer (Contract) | McCann Enterprise, London
 
 _Jul 2017 – Jan 2018_
 
-- Interaction design and prototyping for **Nestlé Purina Pro Plan’s** global website redesign using Axure.
-- Facilitated stakeholder workshops and requirements gathering for **SKF’s** global website programme.
+- Interaction design and high-fidelity prototyping for Nestlé Purina Pro Plan’s global website redesign using Axure.
+- Facilitated stakeholder workshops and requirements gathering for SKF’s global website programme.
 
 ### Design Manager (Contract) | AnalogFolk, London
 
 _Sep 2016 – May 2017_
 
-- Member of **HSBC’s Digital Design Review Board** overseeing global digital collateral.
+- Member of HSBC’s Digital Design Review Board overseeing global digital collateral.
 - Conducted UX and visual design reviews of work produced by internal teams and partner agencies.
 
 ### Senior Visual Designer (Contract) | SapientNitro, London
 
 _Jun 2015 – Jul 2016_
 
-- UI design for the redesign of **BT’s advisor platform**, used by call centre agents to manage customer communications.
+- UI design for the redesign of BT’s advisor platform used by call centre agents to manage customer communications.
 - Designed interface frameworks and dashboards for enterprise communications systems.
-- Role included partial secondment within BT teams, collaborating with product owners, engineers and business stakeholders.
+- Role included partial secondment within BT teams collaborating with product owners, engineers and business stakeholders.
 
 ### Senior Digital Designer (Freelance) | Various agencies, London
 
 _2013 – 2016_
 
-- Freelance digital design engagements across leading London agencies delivering campaign platforms, marketing websites and digital brand experiences.
-- Agencies included **VCCP, Publicis, Investis, Uber Digital, ThirtyThree, Weber Shandwick and ais London**.
-- Clients included **Amazon, EE, TSB, National Grid, ArcelorMittal, SanDisk and BP**.
+- UX/UI design for campaign websites, marketing platforms and responsive digital experiences.
+- Worked with agencies including VCCP, Publicis, Investis, Uber Digital, ThirtyThree, Weber Shandwick and ais London.
+- Delivered work for organisations including Amazon, EE, TSB, National Grid, ArcelorMittal, SanDisk and BP.
 
 ### Digital Designer | Mojofuel, Manchester
 
 _Apr 2008 – Apr 2013_
 
-- Digital designer with creative responsibility for clients including **Corona Extra, Northern Rail, Greater Anglia, Tsingtao Beer and EA Sports**.
-- Design and direction through all stages from brief and wireframes to final UI deliverables.
-- Work included branding, mobile application design, CRM campaigns and digital marketing platforms.
+- Digital design for websites, campaigns and mobile applications for brands including Corona Extra, Northern Rail, Greater Anglia, Tsingtao Beer and EA Sports.
+- Delivered work from concept and wireframes through to final UI deliverables across web, mobile and CRM campaigns.
 
 ### Graphic & Editorial Designer | Lance Publishing, Kettering
 
 _Nov 2006 – Mar 2008_
 
 - Editorial design and production for high-circulation magazines produced for HM Forces.
-- Responsibilities included layout design, photography retouching, advertising design and print production.
+- Layout design, advertising artwork and print production.
