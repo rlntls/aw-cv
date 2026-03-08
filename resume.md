@@ -5,7 +5,7 @@ London, UK | alexwastell.com | linkedin.com/in/alexwastell | awastell@gmail.com 
 
 ## Profile
 
-Senior Product Designer specialising in UX/UI, responsive web design and design systems. 18 years’ experience delivering enterprise websites and digital products for global organisations including Unilever, BT and HSBC. Experienced designing component-driven interfaces within complex CMS environments and collaborating closely with engineering teams to deliver accessible, high-quality digital experiences. Background in editorial design provides a strong foundation in typography, layout and visual hierarchy.
+Senior Product Designer specialising in UX/UI, responsive web design and design systems with 18 years’ experience delivering enterprise websites and digital products for global organisations including Unilever, BT and HSBC. Experienced designing component-driven interfaces within complex CMS environments and collaborating closely with engineering teams to deliver accessible, production-ready digital systems. Background in editorial design provides a strong foundation in typography, layout and visual hierarchy.
 
 ## Core Skills
 
@@ -21,21 +21,22 @@ Figma (libraries, variables, Dev Mode) · Axure RP · Sketch · Adobe Creative C
 
 _Feb 2024 – Present_
 
-- Design modular UI systems and high-fidelity interfaces for enterprise websites and digital platforms.
-- Led the migration from Sketch to Figma, defining collaborative workflows and tooling across the digital team.
-- Established best practice for component architecture, design systems and developer handoff.
-- Delivered work for major UK and FTSE-listed organisations across financial services, infrastructure and energy sectors.
+- Designing scalable UI systems and high-fidelity interfaces for enterprise websites and digital platforms for major UK and FTSE-listed organisations across infrastructure, energy and financial services.
+- Designed modular component systems and responsive UI frameworks for large-scale digital platforms.
+- Led the migration of the digital team from Sketch to Figma, defining collaborative workflows and best practice for component architecture and developer handoff.
+- Established design system standards and interface governance across projects.
+- Work includes the award-winning redesign of the Gleeds global website, recognised by the Construction Marketing Awards and Digital Impact Awards.
 
 ### Senior UX/UI Designer (Contract) | Various agencies, London
 
 _2020 – 2024_
 
-Selected projects across enterprise platforms and global organisations:
+Interface design and responsive UI systems delivered through agency engagements for global brands, enterprise platforms and healthcare technology products.
 
 - **Dow:** Component design and curation of a Figma design system supporting migration of the global web estate to Adobe Experience Manager.
 - **Johnson & Johnson (SPI):** UI design for surgical workflow software visualising operating room procedures and analytics.
-- **Autolus Therapeutics:** Responsive website and modular content architecture for a global immunotherapy company.
-- **NatWest, LEGO, Manchester City, Xylem, Acronis:** Interface design and responsive systems delivered through agency engagements.
+- **Autolus Therapeutics:** Component-driven responsive website design for a global immunotherapy company including modular content architecture and complex tabular layouts.
+- **NatWest, LEGO, Manchester City, Xylem, Acronis:** UX/UI design and responsive interface systems delivered through agency engagements for large-scale digital platforms.
 
 ### Design Lead / Senior Experience Designer (Contract) | Publicis Sapient, London
 
@@ -43,7 +44,7 @@ _Feb 2018 – Jun 2019_
 
 - Design lead within Unilever’s Adobe AEM platform team.
 - Designed and governed components within the **Adobe Classic** design system used by global brands including Dove, Lynx/Axe and Tresemmé.
-- Worked with experience development and data engineering teams to ensure design feasibility within AEM platform constraints.
+- Worked across experience development and data engineering teams to ensure design feasibility within AEM platform constraints.
 
 ### UX / Interaction Designer (Contract) | McCann Enterprise, London
 
@@ -59,17 +60,23 @@ _Sep 2016 – May 2017_
 - Member of **HSBC’s Digital Design Review Board** overseeing global digital collateral.
 - Conducted UX and visual design reviews of work produced by internal teams and partner agencies (500+ reviews).
 
-### Product UI Designer (Contract) | SapientNitro, London
+### Senior Visual Designer (Contract) | SapientNitro, London
 
 _Jun 2015 – Jul 2016_
 
-- Designed interface frameworks and dashboard components for **BT’s** enterprise customer communications platform.
+- UI design for the redesign of **BT’s advisor platform**, used by call centre agents to manage customer communications and service interactions.
+- Designed interface frameworks and dashboard components for enterprise customer communications systems and internal operational tools.
+- Role included partial secondment within BT teams, working closely with product owners, engineers and business stakeholders.
 
 ### Digital Designer | Mojofuel, Manchester
 
 _Apr 2008 – Apr 2013_
 
-- End-to-end digital design across websites, campaigns and mobile applications for brands including **Corona Extra, EA Sports and Northern Rail**.
+- Digital designer with creative responsibility for clients including **Corona Extra, Northern Rail, Greater Anglia, Tsingtao Beer and EA Sports**.
+- Led design across the full project lifecycle from brief and wireframes through to final UI deliverables.
+- Branding and identity development including creation of logotypes and corporate brand guidelines.
+- iOS and Android application design following Apple and Android design best practices.
+- CRM and campaign design including eCRM, social media and digital marketing collateral.
 
 ### Graphic & Editorial Designer | Lance Publishing, Kettering
 

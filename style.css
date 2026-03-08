@@ -1,17 +1,55 @@
 :root {
+  /* Colors */
   --primary-color: #000;
   --secondary-color: #444;
   --tertiary-color: #666;
   --background-color: #fff;
   --border-color: #ccc;
+
+  /* Typography */
   --font-stack: -apple-system, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --base-font-size: 10pt;
   --line-height: 1.45;
+  
+  /* Font Sizes */
+  --font-size-h1: 28pt;
+  --font-size-h2: 14pt;
+  --font-size-h3: 11pt;
+  --font-size-h3-sub: 9.5pt;
+  
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Letter Spacing */
+  --letter-spacing-h1: -0.03em;
+  --letter-spacing-h2: -0.01em;
+
+  /* Specific Line Heights */
+  --line-height-contact: 1.6;
+
+  /* Margins & Padding */
+  --page-margin: 25mm 20mm 25mm 20mm;
+  --margin-h1: 0 0 4pt 0;
+  --margin-contact: 0 0 20pt 0;
+  --margin-h2: 20pt 0 10pt 0;
+  --padding-h2: 0 0 4pt 0;
+  --margin-h3: 16pt 0 0 0;
+  --margin-h3-sub: 2pt 0 8pt 0;
+  --margin-p: 0 0 8pt 0;
+  --margin-ul: 0 0 16pt 0;
+  --padding-left-ul: 16pt;
+  --margin-bottom-li: 3pt;
+  --padding-bottom-a: 1pt;
+  
+  /* Borders */
+  --border-width: 1px;
 }
 
 @page {
   size: A4;
-  margin: 25mm 20mm 25mm 20mm;
+  margin: var(--page-margin);
 }
 
 body {
@@ -26,10 +64,10 @@ body {
 
 /* Name */
 h1 {
-  font-size: 28pt;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  margin: 0 0 4pt 0;
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-h1);
+  margin: var(--margin-h1);
   padding: 0;
   border: none;
   text-align: left;
@@ -39,21 +77,21 @@ h1 {
 h1 + p {
   text-align: left;
   color: var(--secondary-color);
-  font-size: 10pt;
-  font-weight: 400;
-  margin: 0 0 20pt 0;
-  line-height: 1.6;
+  font-size: var(--base-font-size);
+  font-weight: var(--font-weight-regular);
+  margin: var(--margin-contact);
+  line-height: var(--line-height-contact);
 }
 
 /* Section Headings */
 h2 {
-  font-size: 14pt;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-h2);
   color: var(--primary-color);
-  margin: 20pt 0 10pt 0;
-  padding: 0 0 4pt 0;
-  border-bottom: 1px solid var(--border-color);
+  margin: var(--margin-h2);
+  padding: var(--padding-h2);
+  border-bottom: var(--border-width) solid var(--border-color);
   text-align: left;
   break-after: avoid;
 }
@@ -65,36 +103,36 @@ h1 + p + h2 {
 
 /* Job Role / Institution */
 h3 {
-  font-size: 11pt;
-  font-weight: 600;
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-semibold);
   color: var(--primary-color);
-  margin: 16pt 0 0 0;
+  margin: var(--margin-h3);
   text-align: left;
   break-after: avoid;
 }
 
 /* Dates / Sub-info */
 h3 + p {
-  font-size: 9.5pt;
-  font-weight: 400;
+  font-size: var(--font-size-h3-sub);
+  font-weight: var(--font-weight-regular);
   color: var(--tertiary-color);
-  margin: 2pt 0 8pt 0;
+  margin: var(--margin-h3-sub);
   break-before: avoid;
   break-after: avoid;
 }
 
 p {
-  margin: 0 0 8pt 0;
+  margin: var(--margin-p);
   text-align: left;
 }
 
 ul {
-  margin: 0 0 16pt 0;
-  padding-left: 16pt;
+  margin: var(--margin-ul);
+  padding-left: var(--padding-left-ul);
 }
 
 li {
-  margin-bottom: 3pt;
+  margin-bottom: var(--margin-bottom-li);
   text-align: left;
   break-inside: avoid;
 }
@@ -107,7 +145,6 @@ p, li {
 a {
   color: var(--primary-color);
   text-decoration: none;
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 1pt;
+  border-bottom: var(--border-width) solid var(--border-color);
+  padding-bottom: var(--padding-bottom-a);
 }
-
