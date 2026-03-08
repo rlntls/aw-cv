@@ -7,16 +7,17 @@
   --border-color: #ccc;
 
   /* Typography */
-  --font-stack: -apple-system, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-stack:
+    -apple-system, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --base-font-size: 10pt;
   --line-height: 1.45;
-  
+
   /* Font Sizes */
-  --font-size-h1: 28pt;
-  --font-size-h2: 14pt;
+  --font-size-h1: 24pt;
+  --font-size-h2: 13.5pt;
   --font-size-h3: 11pt;
-  --font-size-h3-sub: 9.5pt;
-  
+  --font-size-h3-sub: 9pt;
+
   /* Font Weights */
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
@@ -30,19 +31,19 @@
   --line-height-contact: 1.6;
 
   /* Margins & Padding */
-  --page-margin: 25mm 20mm 25mm 20mm;
+  --page-margin: 20mm 20mm 20mm 20mm;
   --margin-h1: 0 0 4pt 0;
   --margin-contact: 0 0 20pt 0;
-  --margin-h2: 20pt 0 10pt 0;
+  --margin-h2: 12pt 0 8pt 0;
   --padding-h2: 0 0 4pt 0;
-  --margin-h3: 16pt 0 0 0;
-  --margin-h3-sub: 2pt 0 8pt 0;
+  --margin-h3: 8pt 0 0 0;
+  --margin-h3-sub: 1pt 0 6pt 0;
   --margin-p: 0 0 8pt 0;
   --margin-ul: 0 0 16pt 0;
   --padding-left-ul: 16pt;
   --margin-bottom-li: 3pt;
   --padding-bottom-a: 1pt;
-  
+
   /* Borders */
   --border-width: 1px;
 }
@@ -137,7 +138,8 @@ li {
   break-inside: avoid;
 }
 
-p, li {
+p,
+li {
   orphans: 3;
   widows: 3;
 }
