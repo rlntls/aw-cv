@@ -24,7 +24,7 @@ _Feb 2024 – Present_
 - Design modular UI systems and component libraries for large-scale responsive platforms.
 - Deliver high-fidelity interfaces for enterprise websites across infrastructure, energy and financial services sectors.
 - Led migration of the digital team from Sketch to Figma, establishing collaborative workflows and developer handoff standards.
-- Contributed to the award-winning Gleeds website redesign recognised by the Construction Marketing Awards and Digital Impact Awards.
+- Work including the award-winning Gleeds website redesign recognised by the Construction Marketing Awards and Digital Impact Awards.
 
 ### Senior UX/UI Designer (Contract) | Various agencies, London
 
