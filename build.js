@@ -6,16 +6,17 @@ const settings = JSON.parse(fs.readFileSync('settings.json', 'utf8'));
 const date = new Date();
 const month = date.toLocaleString('default', { month: 'short' });
 const year = date.getFullYear();
-const baseName = `${settings.name.replace(/\s+/g, '-')}_CV_${month}-${year}`;
+const prefix = `${settings.name.replace(/\s+/g, '-')}_CV`;
+const baseName = `${prefix}_${month}-${year}`;
 let filename = `${baseName}.pdf`;
 
 if (settings.overwrite) {
-  // Delete previous versions with same base name
+  // Delete all previous PDF versions by this user
   const files = fs.readdirSync(__dirname);
   for (const file of files) {
-    if (file.startsWith(baseName) && file.endsWith('.pdf')) {
+    if (file.startsWith(prefix) && file.endsWith('.pdf')) {
       fs.unlinkSync(file);
-      console.log(`Overwriting previous version: ${file}`);
+      console.log(`Cleaned up previous version: ${file}`);
     }
   }
 } else {

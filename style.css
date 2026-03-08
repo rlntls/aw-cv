@@ -1,23 +1,34 @@
+:root {
+  --primary-color: #111827;
+  --secondary-color: #4b5563;
+  --tertiary-color: #6b7280;
+  --background-color: #ffffff;
+  --border-color: #e5e7eb;
+  --font-stack: -apple-system, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --base-font-size: 10pt;
+  --line-height: 1.5;
+}
+
 @page {
   size: A4;
   margin: 25mm 20mm 25mm 20mm;
 }
 
 body {
-  font-family: -apple-system, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #000;
-  line-height: 1.45;
-  font-size: 10pt;
+  font-family: var(--font-stack);
+  color: var(--primary-color);
+  line-height: var(--line-height);
+  font-size: var(--base-font-size);
   max-width: 100%;
   margin: 0;
-  background-color: #fff;
+  background-color: var(--background-color);
 }
 
 /* Name */
 h1 {
   font-size: 28pt;
   font-weight: 700;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
   margin: 0 0 4pt 0;
   padding: 0;
   border: none;
@@ -27,7 +38,7 @@ h1 {
 /* Contact Info */
 h1 + p {
   text-align: left;
-  color: #444;
+  color: var(--secondary-color);
   font-size: 10pt;
   font-weight: 400;
   margin: 0 0 20pt 0;
@@ -36,13 +47,14 @@ h1 + p {
 
 /* Section Headings */
 h2 {
-  font-size: 14pt;
+  font-size: 13pt;
   font-weight: 600;
-  letter-spacing: -0.01em;
-  color: #000;
-  margin: 20pt 0 10pt 0;
-  padding: 0 0 4pt 0;
-  border-bottom: 1px solid #ccc;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin: 24pt 0 12pt 0;
+  padding: 0 0 6pt 0;
+  border-bottom: 1px solid var(--border-color);
   text-align: left;
   break-after: avoid;
 }
@@ -54,9 +66,9 @@ h1 + p + h2 {
 
 /* Job Role / Institution */
 h3 {
-  font-size: 11pt;
+  font-size: 11.5pt;
   font-weight: 600;
-  color: #000;
+  color: var(--primary-color);
   margin: 16pt 0 0 0;
   text-align: left;
   break-after: avoid;
@@ -65,8 +77,8 @@ h3 {
 /* Dates / Sub-info */
 h3 + p {
   font-size: 9.5pt;
-  font-weight: 400;
-  color: #666;
+  font-weight: 500;
+  color: var(--tertiary-color);
   margin: 2pt 0 8pt 0;
   break-before: avoid;
   break-after: avoid;
@@ -79,11 +91,11 @@ p {
 
 ul {
   margin: 0 0 16pt 0;
-  padding-left: 16pt;
+  padding-left: 14pt;
 }
 
 li {
-  margin-bottom: 3pt;
+  margin-bottom: 4pt;
   text-align: left;
   break-inside: avoid;
 }
@@ -94,8 +106,10 @@ p, li {
 }
 
 a {
-  color: #000;
+  color: var(--primary-color);
   text-decoration: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 1pt;
+  transition: opacity 0.2s ease;
 }
+
