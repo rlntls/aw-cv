@@ -5,7 +5,7 @@ London, UK | alexwastell.com | linkedin.com/in/alexwastell | awastell@gmail.com 
 
 ## Profile
 
-Senior Product Designer specialising in UX/UI, responsive web design and design systems. 18 years’ experience delivering enterprise websites and digital products for organisations including Unilever, BT and HSBC. Experienced designing component-driven interfaces within complex CMS environments and collaborating closely with engineering teams to deliver accessible, production-ready digital systems. Background in editorial design provides a strong foundation in typography, layout and visual hierarchy.
+Senior Product Designer specialising in UX/UI, responsive web design and design systems with 18 years’ experience delivering enterprise websites and digital products for organisations including Unilever, BT and HSBC. Experienced designing component-driven interfaces within complex CMS environments and collaborating closely with engineering teams to deliver accessible, production-ready digital systems. Background in editorial design provides a strong foundation in typography, layout and visual hierarchy.
 
 ## Core Skills
 
@@ -63,16 +63,25 @@ _Jun 2015 – Jul 2016_
 - Designed interface frameworks and dashboards for enterprise communications systems.
 - Role included partial secondment within BT teams, collaborating with product owners, engineers and business stakeholders.
 
+### Senior Digital Designer (Freelance) | Various agencies, London
+
+_2013 – 2016_
+
+- Freelance digital design engagements across leading London agencies delivering campaign platforms, marketing websites and digital brand experiences.
+- Agencies included **VCCP, Publicis, Investis, Uber Digital, ThirtyThree, Weber Shandwick and ais London**.
+- Clients included **Amazon, EE, TSB, National Grid, ArcelorMittal, SanDisk and BP**.
+
 ### Digital Designer | Mojofuel, Manchester
 
 _Apr 2008 – Apr 2013_
 
-- End-to-end digital design across websites, campaigns and mobile applications.
-- Clients included **Corona Extra, Northern Rail, Greater Anglia, Tsingtao Beer and EA Sports**.
-- Work included UI design, branding, campaign platforms and mobile app interfaces.
+- Digital designer with creative responsibility for clients including **Corona Extra, Northern Rail, Greater Anglia, Tsingtao Beer and EA Sports**.
+- Design and direction through all stages from brief and wireframes to final UI deliverables.
+- Work included branding, mobile application design, CRM campaigns and digital marketing platforms.
 
 ### Graphic & Editorial Designer | Lance Publishing, Kettering
 
 _Nov 2006 – Mar 2008_
 
 - Editorial design and production for high-circulation magazines produced for HM Forces.
+- Responsibilities included layout design, photography retouching, advertising design and print production.
