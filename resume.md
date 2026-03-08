@@ -7,7 +7,7 @@ London, UK | alexwastell.com | linkedin.com/in/alexwastell | awastell@gmail.com 
 
 Senior Product Designer specialising in UX/UI, responsive web design and design systems with 18 years’ experience delivering enterprise websites and digital products for organisations including Unilever, BT and HSBC. Experienced designing component-driven interfaces within complex CMS environments and collaborating closely with engineering teams to deliver accessible, high-quality digital experiences. Background in editorial design provides a strong foundation in typography, layout and visual hierarchy.
 
-## Core Skills
+## Skills
 
 UX/UI design · Design systems · Interaction design · Information architecture · Component-based design · Responsive web design · Accessibility (WCAG 2.2) · Prototyping · User testing · Design governance · Agile product delivery
 
