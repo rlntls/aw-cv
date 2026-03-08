@@ -33,7 +33,7 @@ _2020 – 2024_
 - Component design and curation of a Figma design system for Dow supporting migration of the global web estate to Adobe Experience Manager.
 - UI design for Johnson & Johnson surgical workflow software visualising operating room procedures and analytics.
 - Responsive website and modular content architecture for Autolus Therapeutics.
-- Interface design and responsive systems delivered for organisations including NatWest, LEGO, Manchester City, Xylem and Acronis.
+- Digital and responsive design for organisations including NatWest, LEGO, Manchester City, Xylem and Acronis.
 
 ### Design Lead / Senior Experience Designer (Contract) | Publicis Sapient, London
 
