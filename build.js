@@ -2,19 +2,31 @@ const { marked } = require('marked');
 const fs = require('fs');
 const puppeteer = require('puppeteer');
 
+const settings = JSON.parse(fs.readFileSync('settings.json', 'utf8'));
 const date = new Date();
 const month = date.toLocaleString('default', { month: 'short' });
 const year = date.getFullYear();
-const filename = `Alex-Wastell_CV_${month}-${year}.pdf`;
+const baseName = `${settings.name.replace(/\s+/g, '-')}_CV_${month}-${year}`;
+let filename = `${baseName}.pdf`;
 
-// Delete previous versions of your CV in root directory
-const files = fs.readdirSync(__dirname);
-for (const file of files) {
-  if (file.startsWith('Alex-Wastell_CV_') && file.endsWith('.pdf')) {
-    fs.unlinkSync(file);
-    console.log(`Cleaned up previous version: ${file}`);
+if (settings.overwrite) {
+  // Delete previous versions with same base name
+  const files = fs.readdirSync(__dirname);
+  for (const file of files) {
+    if (file.startsWith(baseName) && file.endsWith('.pdf')) {
+      fs.unlinkSync(file);
+      console.log(`Overwriting previous version: ${file}`);
+    }
+  }
+} else {
+  // Increment filename if duplicate exists
+  let counter = 1;
+  while (fs.existsSync(filename)) {
+    filename = `${baseName}_v${counter}.pdf`;
+    counter++;
   }
 }
+
 
 (async () => {
     try {
