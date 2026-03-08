@@ -1,12 +1,12 @@
 :root {
-  --primary-color: #111827;
-  --secondary-color: #4b5563;
-  --tertiary-color: #6b7280;
-  --background-color: #ffffff;
-  --border-color: #e5e7eb;
+  --primary-color: #000;
+  --secondary-color: #444;
+  --tertiary-color: #666;
+  --background-color: #fff;
+  --border-color: #ccc;
   --font-stack: -apple-system, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --base-font-size: 10pt;
-  --line-height: 1.5;
+  --line-height: 1.45;
 }
 
 @page {
@@ -28,7 +28,7 @@ body {
 h1 {
   font-size: 28pt;
   font-weight: 700;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
   margin: 0 0 4pt 0;
   padding: 0;
   border: none;
@@ -47,13 +47,12 @@ h1 + p {
 
 /* Section Headings */
 h2 {
-  font-size: 13pt;
+  font-size: 14pt;
   font-weight: 600;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--primary-color);
-  margin: 24pt 0 12pt 0;
-  padding: 0 0 6pt 0;
+  margin: 20pt 0 10pt 0;
+  padding: 0 0 4pt 0;
   border-bottom: 1px solid var(--border-color);
   text-align: left;
   break-after: avoid;
@@ -66,7 +65,7 @@ h1 + p + h2 {
 
 /* Job Role / Institution */
 h3 {
-  font-size: 11.5pt;
+  font-size: 11pt;
   font-weight: 600;
   color: var(--primary-color);
   margin: 16pt 0 0 0;
@@ -77,7 +76,7 @@ h3 {
 /* Dates / Sub-info */
 h3 + p {
   font-size: 9.5pt;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--tertiary-color);
   margin: 2pt 0 8pt 0;
   break-before: avoid;
@@ -91,11 +90,11 @@ p {
 
 ul {
   margin: 0 0 16pt 0;
-  padding-left: 14pt;
+  padding-left: 16pt;
 }
 
 li {
-  margin-bottom: 4pt;
+  margin-bottom: 3pt;
   text-align: left;
   break-inside: avoid;
 }
@@ -110,6 +109,5 @@ a {
   text-decoration: none;
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 1pt;
-  transition: opacity 0.2s ease;
 }
 
